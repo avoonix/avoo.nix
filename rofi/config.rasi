@@ -1,0 +1,59 @@
+configuration {
+    modes: "window,drun,run,filebrowser,combi";
+    timeout {
+        action: "kb-cancel";
+        delay:  0;
+    }
+    filebrowser {
+        directories-first: true;
+        sorting-method:    "name";
+    }
+}
+
+
+@theme "default"
+
+* {
+    pink: rgba (255, 85, 200, 100 %);
+    background: rgba (0, 0, 0, 100 %);
+    foreground: var(pink);
+    lightbg: var(background);
+    lightfg: var(foreground);
+    lightpink: rgba (255, 212, 241, 100 %);
+    active-foreground: var(foreground);
+    active-background: var(background);
+    alternate-active-foreground: var(lightpink);
+    alternate-active-background: var(background);
+    blue: var(foreground);
+}
+
+window {
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+element {
+    text-color: var(pink);
+    background-color: var(background);
+    border-radius: 4px;
+}
+
+listview {
+    border: 2px solid 0px 0px;
+}
+
+entry {
+    placeholder-color: var(lightpink);
+}
+
+num-filtered-rows {
+    text-color: var(lightpink);
+}
+
+num-rows {
+    text-color: var(lightpink);
+}
+
+textbox-num-sep {
+    text-color: var(lightpink);
+}
