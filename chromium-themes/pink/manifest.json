@@ -1,0 +1,129 @@
+{
+    "manifest_version": 3,
+    "name": "Pink as Fox (pink)",
+    "description": "UwU",
+    "version": "0.1",
+    "author": "Avoo",
+    "theme": {
+        "colors": {
+            "frame": [
+                0,
+                0,
+                0
+            ],
+            "toolbar": [
+                255,
+                85,
+                200
+            ],
+            "tab_text": [
+                0,
+                0,
+                0
+            ],
+            "tab_background_text": [
+                255,
+                85,
+                200
+            ],
+            "bookmark_text": [
+                0,
+                0,
+                0
+            ],
+            "ntp_background": [
+                0,
+                0,
+                0
+            ],
+            "ntp_text": [
+                255,
+                85,
+                200
+            ],
+            "ntp_link": [
+                255,
+                85,
+                200
+            ],
+            "button_background": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "omnibox_text": [
+                255,
+                85,
+                200
+            ],
+            "omnibox_background": [
+                0,
+                0,
+                0
+            ],
+            "frame_inactive": [
+                0,
+                0,
+                0
+            ],
+            "frame_incognito": [
+                0,
+                0,
+                0
+            ],
+            "frame_incognito_inactive": [
+                0,
+                0,
+                0
+            ],
+            "background_tab": [
+                0,
+                0,
+                0
+            ],
+            "background_tab_inactive": [
+                0,
+                0,
+                0
+            ],
+            "background_tab_incognito": [
+                0,
+                0,
+                0
+            ],
+            "background_tab_incognito_inactive": [
+                0,
+                0,
+                0
+            ],
+            "tab_background_text_inactive": [
+                255,
+                85,
+                200
+            ],
+            "tab_background_text_incognito": [
+                255,
+                85,
+                200
+            ],
+            "tab_background_text_incognito_inactive": [
+                255,
+                85,
+                200
+            ],
+            "toolbar_button_icon": [
+                0,
+                0,
+                0
+            ]
+        },
+        "tints": {
+            "buttons": [
+                0,
+                0,
+                0
+            ]
+        }
+    }
+}
